@@ -25,8 +25,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ### use for Keyboard shortcut
+```
 shortcut key of 'C' => Delete
 shortcut key of '⌫' => Backspace
 shortcut key of '%' => % 
 shortcut key of '÷' =>  /
 shortcut key of '=' => = Or Enter
+```
