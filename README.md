@@ -30,5 +30,5 @@ shortcut key of 'C' => Delete
 shortcut key of '⌫' => Backspace
 shortcut key of '%' => % 
 shortcut key of '÷' =>  /
-shortcut key of '=' => = Or Enter
+shortcut key of '=' => = (Or) Enter
 ```
