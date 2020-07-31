@@ -69,7 +69,7 @@ export default {
             if(operatorSign === 'di'){
                 this.operator=(a,b)=> b / a;
                 this.setPrevious();
-                this.operatorSign=operatorSign
+                //this.operatorSign=operatorSign
             }else if(operatorSign === 'mul'){
                 this.operator=(a,b)=>  a * b;
                 this.setPrevious();
@@ -87,10 +87,6 @@ export default {
                 this.previous=''
             }
         },
-        equal(){
-            
-        },
-
         onCalc(e){
             if(e.keyCode === 97){
                 if(this.operatorClicked){
