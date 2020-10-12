@@ -193,15 +193,17 @@ export default {
 .display{
     grid-column: 1/5;
     color: white;
+    height: 60px;
 }
 .zero{
     text-align: center;
     grid-column: 1/3;
-    background-color: red;
+    background-color: rgb(122, 100, 100)(122, 100, 100);
 }
 .btn{
     background-color: rgb(242, 242, 242);
     border: 1px solid #999;
+    height: 60px;
 }
 .btn:active{
     background-color: grey
@@ -210,5 +212,10 @@ export default {
     background-color: orange;
     color: white;
     border: 1px solid #999;
+}
+@media screen and (max-width: 1024px) {
+  .Calculator {
+    width: 100%;
+  }
 }
 </style>
